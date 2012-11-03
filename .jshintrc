@@ -1,0 +1,11 @@
+{
+  "asi": true,
+  "node": true,
+  "predef": {
+    "describe": true,
+    "it": true,
+    "document": true,
+    "window": true,
+    "location": true
+  }
+}

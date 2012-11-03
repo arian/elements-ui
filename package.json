@@ -1,0 +1,27 @@
+{
+  "name": "elements-ui",
+  "version": "0.0.1",
+  "description": "UI elements using elements",
+  "scripts": {
+    "test": "make test"
+  },
+  "author": "Arian Stolwijk",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/arian/elements-ui.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "prime": "*",
+    "prime-util": "0.0.4",
+    "elements": "0.0.7-alpha",
+    "elements-util": "0.0.3",
+    "moofx": "3.0"
+  },
+  "devDependencies": {
+    "mocha": "1.6",
+    "expect.js": "0.1",
+    "jshint": "0.9",
+    "wrapup": "0.9.12"
+  }
+}
