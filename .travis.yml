@@ -11,4 +11,4 @@ before_script:
   - git checkout 1.0.0-RC1
   - cd ..
   - export PATH=$PATH:$PWD/casperjs/bin/
-script: make test-casper
+script: make test
