@@ -13,9 +13,9 @@
   "license": "MIT",
   "dependencies": {
     "prime": "*",
-    "prime-util": "0.0.4",
-    "elements": "0.0.7-alpha",
-    "elements-util": "0.0.3",
+    "prime-util": ">=0.0.4",
+    "elements": ">=0.0.7-alpha",
+    "elements-util": ">=0.0.3",
     "moofx": "3.0"
   },
   "devDependencies": {
