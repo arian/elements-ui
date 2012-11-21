@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>elements-ui tests</title>
+
+    <link href="mocha.css" rel="stylesheet" type="text/css" media="screen" />
+    <script type="text/javascript" src="test.js?test/scrollbar"></script>
+
+    <style>
+
+    #scroll-wrapper {
+        background: #ddd;
+        height: 100px;
+        overflow: hidden;
+        position: relative;
+        width: 300px;
+    }
+
+    #scroll-content {
+        position: absolute;
+        width: 600px;
+    }
+
+    #scroll-controls {
+        width: 300px;
+        background: #eee;
+        position: relative;
+        height: 10px;
+    }
+
+    #scroll-left,
+    #scroll-right,
+    #scroll-bar {
+        position: absolute;
+        height: 10px;
+        background: #aaa;
+        top: 0;
+    }
+
+    #scroll-left,
+    #scroll-right {
+        width: 20px;
+    }
+
+    #scroll-bar {
+        background: #888;
+        width: 60px;
+    }
+
+    #scroll-left {
+        left: 0;
+    }
+
+    #scroll-right {
+        right: 0;
+    }
+    </style>
+
+</head>
+<body>
+
+<a href="/">back</a>
+
+<div id="scroll-wrapper">
+    <div id="scroll-content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit
+            amet ornare mi.
+    </div>
+</div>
+<div id="scroll-controls">
+    <div id="scroll-left"></div>
+    <div id="scroll-bar"></div>
+    <div id="scroll-right"></div>
+</div>
+
+
+</body>
+</html>
